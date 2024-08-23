@@ -37,6 +37,21 @@ export class ProjectsComponent {
         },
       ],
     },
+
+    {
+      src: 'assets/img/projects/h2-database.png',
+      alt: 'SpringBoot3',
+      title: 'workshop-springboot3-jpa',
+      with: '100px',
+      height: '51px',
+      description: '<p>Serviço de pedidos (Pagamentos, inclusão, exclusão, status do pedido, etc).</p>',
+      links: [
+        {
+          name: 'Conheça o projeto',
+          href: 'https://github.com/MatheusFolster/workshop-springboot3-jpa',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects){
